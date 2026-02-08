@@ -1,7 +1,21 @@
 // i18n.js - Internationalization handler
 (function() {
-  // Current language (default: English)
-  let currentLang = localStorage.getItem('preferredLanguage') || 'en';
+  // Detect browser language
+  function detectBrowserLanguage() {
+    // Get browser language
+    const browserLang = navigator.language || navigator.userLanguage || 'en';
+
+    // Check if Korean
+    if (browserLang.toLowerCase().startsWith('ko')) {
+      return 'ko';
+    }
+
+    // Default to English for all other languages
+    return 'en';
+  }
+
+  // Current language (check localStorage first, then detect browser language)
+  let currentLang = localStorage.getItem('preferredLanguage') || detectBrowserLanguage();
   let translations = {};
 
   // Load translation file
@@ -124,10 +138,22 @@
     // Apply to DOM
     applyTranslations();
 
-    // Update language selector if exists
+    // Update desktop language selector if exists
     const langSelect = document.getElementById('language-select');
     if (langSelect) {
       langSelect.value = lang;
+    }
+
+    // Update mobile language selector if exists
+    const mobileLangSelect = document.getElementById('mobile-language-select');
+    if (mobileLangSelect) {
+      mobileLangSelect.value = lang;
+    }
+
+    // Update mobile language toggle display if exists
+    const currentLangDisplay = document.getElementById('current-lang');
+    if (currentLangDisplay) {
+      currentLangDisplay.textContent = lang.toUpperCase();
     }
 
     // Update HTML lang attribute
@@ -144,10 +170,22 @@
 
   // Initialize language selector
   function initLanguageSelector() {
+    // Desktop language selector
     const langSelect = document.getElementById('language-select');
     if (langSelect) {
       langSelect.value = currentLang;
       langSelect.addEventListener('change', async (e) => {
+        await setLanguage(e.target.value);
+        // Reload current page data if needed
+        window.location.reload();
+      });
+    }
+
+    // Mobile language selector
+    const mobileLangSelect = document.getElementById('mobile-language-select');
+    if (mobileLangSelect) {
+      mobileLangSelect.value = currentLang;
+      mobileLangSelect.addEventListener('change', async (e) => {
         await setLanguage(e.target.value);
         // Reload current page data if needed
         window.location.reload();
@@ -161,6 +199,12 @@
     applyTranslations();
     initLanguageSelector();
     document.documentElement.lang = currentLang;
+
+    // Update mobile language toggle display
+    const currentLangDisplay = document.getElementById('current-lang');
+    if (currentLangDisplay) {
+      currentLangDisplay.textContent = currentLang.toUpperCase();
+    }
   }
 
   // Auto-initialize when DOM is ready

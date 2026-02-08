@@ -156,6 +156,7 @@ code {
   z-index: 100;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 0 var(--spacing-xl);
 }
 
@@ -179,7 +180,9 @@ code {
 }
 
 .site-header nav {
-  margin-left: auto;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
   gap: var(--spacing-xl);
 }

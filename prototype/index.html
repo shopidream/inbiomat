@@ -160,7 +160,7 @@
       <label for="language-select" data-i18n="language">Language</label>
       <select id="language-select">
         <option value="en">English</option>
-        <option value="ko">?�국??/option>
+        <option value="ko">?�국??/option>
       </select>
     </div>
     <button class="mobile-lang-toggle" onclick="toggleLanguage()" aria-label="Toggle language">
@@ -179,7 +179,7 @@
       <label data-i18n="language">Language</label>
       <select id="mobile-language-select">
         <option value="en">English</option>
-        <option value="ko">?�국??/option>
+        <option value="ko">?�국??/option>
       </select>
     </div>
   </nav>
@@ -407,9 +407,9 @@
 
         grid.innerHTML = featuredProducts.map(product => `
           <div class="product-card" onclick="window.location.href='./products.html'">
-            ${product.image ? `
+            ${product.images?.square ? `
               <div class="product-card-image">
-                <img src="./product_images/${product.image}" alt="${getLocalizedText(product.name)}" loading="lazy">
+                <img src="./product_images/${product.images.square}" alt="${getLocalizedText(product.name)}" loading="lazy">
               </div>
             ` : ''}
             <div class="product-card-header">

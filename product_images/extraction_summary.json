@@ -1,0 +1,204 @@
+{
+  "total_products": 15,
+  "total_images": 45,
+  "extraction_date": "2026-02-08",
+  "pdf_source": "C:\\Users\\Juyong\\Inbiomat\\VIEW-Rev00-EXTERNAL-Specs-Tradeshow-Interactive-COMPRESSED.pdf",
+  "dpi": 150,
+  "products": [
+    {
+      "product_id": "mcd",
+      "pdf_pages": [
+        2,
+        3,
+        4
+      ],
+      "files": [
+        "mcd_main.png",
+        "mcd_square.png",
+        "mcd_wide.png"
+      ]
+    },
+    {
+      "product_id": "mcha",
+      "pdf_pages": [
+        5,
+        6,
+        7
+      ],
+      "files": [
+        "mcha_main.png",
+        "mcha_square.png",
+        "mcha_wide.png"
+      ]
+    },
+    {
+      "product_id": "swha",
+      "pdf_pages": [
+        8,
+        9,
+        10
+      ],
+      "files": [
+        "swha_main.png",
+        "swha_square.png",
+        "swha_wide.png"
+      ]
+    },
+    {
+      "product_id": "uwha",
+      "pdf_pages": [
+        11,
+        12,
+        13
+      ],
+      "files": [
+        "uwha_main.png",
+        "uwha_square.png",
+        "uwha_wide.png"
+      ]
+    },
+    {
+      "product_id": "hawhisk-s",
+      "pdf_pages": [
+        14,
+        15,
+        16
+      ],
+      "files": [
+        "hawhisk-s_main.png",
+        "hawhisk-s_square.png",
+        "hawhisk-s_wide.png"
+      ]
+    },
+    {
+      "product_id": "cad",
+      "pdf_pages": [
+        17,
+        18,
+        19
+      ],
+      "files": [
+        "cad_main.png",
+        "cad_square.png",
+        "cad_wide.png"
+      ]
+    },
+    {
+      "product_id": "had",
+      "pdf_pages": [
+        20,
+        21,
+        22
+      ],
+      "files": [
+        "had_main.png",
+        "had_square.png",
+        "had_wide.png"
+      ]
+    },
+    {
+      "product_id": "hadel",
+      "pdf_pages": [
+        23,
+        24,
+        25
+      ],
+      "files": [
+        "hadel_main.png",
+        "hadel_square.png",
+        "hadel_wide.png"
+      ]
+    },
+    {
+      "product_id": "atcp",
+      "pdf_pages": [
+        26,
+        27,
+        28
+      ],
+      "files": [
+        "atcp_main.png",
+        "atcp_square.png",
+        "atcp_wide.png"
+      ]
+    },
+    {
+      "product_id": "ssbtcp",
+      "pdf_pages": [
+        29,
+        30,
+        31
+      ],
+      "files": [
+        "ssbtcp_main.png",
+        "ssbtcp_square.png",
+        "ssbtcp_wide.png"
+      ]
+    },
+    {
+      "product_id": "swbtcp",
+      "pdf_pages": [
+        32,
+        33,
+        34
+      ],
+      "files": [
+        "swbtcp_main.png",
+        "swbtcp_square.png",
+        "swbtcp_wide.png"
+      ]
+    },
+    {
+      "product_id": "utcp",
+      "pdf_pages": [
+        35,
+        36,
+        37
+      ],
+      "files": [
+        "utcp_main.png",
+        "utcp_square.png",
+        "utcp_wide.png"
+      ]
+    },
+    {
+      "product_id": "ttcp",
+      "pdf_pages": [
+        38,
+        39,
+        40
+      ],
+      "files": [
+        "ttcp_main.png",
+        "ttcp_square.png",
+        "ttcp_wide.png"
+      ]
+    },
+    {
+      "product_id": "s1bcp",
+      "pdf_pages": [
+        41,
+        42,
+        43
+      ],
+      "files": [
+        "s1bcp_main.png",
+        "s1bcp_square.png",
+        "s1bcp_wide.png"
+      ]
+    },
+    {
+      "product_id": "u1bcp",
+      "pdf_pages": [
+        44,
+        45,
+        46
+      ],
+      "files": [
+        "u1bcp_main.png",
+        "u1bcp_square.png",
+        "u1bcp_wide.png"
+      ]
+    }
+  ]
+}

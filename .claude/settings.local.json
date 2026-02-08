@@ -14,7 +14,9 @@
       "Bash(done)",
       "Bash(if not exist \"prototype\\\\product_images\" mkdir \"prototype\\\\product_images\")",
       "Bash(find:*)",
-      "Bash(test:*)"
+      "Bash(test:*)",
+      "Bash(xcopy:*)",
+      "Bash(git restore:*)"
     ]
   }
 }

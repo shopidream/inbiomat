@@ -182,6 +182,41 @@
     </div>
   </nav>
 
+  <!-- Application Slideshow Hero -->
+  <div class="slideshow-hero">
+    <div class="slideshow-container">
+      <div class="slide active">
+        <img src="./assets/applications/bone-graft.jpg" alt="Bone Graft Substitutes">
+        <div class="slide-overlay">
+          <h2 class="slide-title" data-i18n="slide_bone_graft">Bone Graft Substitutes</h2>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="./assets/applications/dental-implant.jpg" alt="Dental Implants">
+        <div class="slide-overlay">
+          <h2 class="slide-title" data-i18n="slide_dental_implant">Dental Implants</h2>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="./assets/applications/3d-scaffold.jpg" alt="3D Printed Scaffolds">
+        <div class="slide-overlay">
+          <h2 class="slide-title" data-i18n="slide_3d_scaffold">3D Printed Scaffolds</h2>
+        </div>
+      </div>
+
+      <!-- Navigation Arrows -->
+      <button class="slide-prev" onclick="changeSlide(-1)" aria-label="Previous slide">&#10094;</button>
+      <button class="slide-next" onclick="changeSlide(1)" aria-label="Next slide">&#10095;</button>
+    </div>
+
+    <!-- Slide Indicators -->
+    <div class="slide-indicators">
+      <span class="indicator active" onclick="goToSlide(0)"></span>
+      <span class="indicator" onclick="goToSlide(1)"></span>
+      <span class="indicator" onclick="goToSlide(2)"></span>
+    </div>
+  </div>
+
   <div style="margin-top: var(--header-height);">
     <main style="max-width: 1400px; margin: 0 auto; padding: 1.5rem;">
       <!-- Hero Section -->
@@ -351,6 +386,7 @@
   </div>
 
   <script src="./js/i18n.js"></script>
+  <script src="./js/slideshow.js"></script>
   <script>
     // Mobile menu toggle
     function toggleMobileMenu() {

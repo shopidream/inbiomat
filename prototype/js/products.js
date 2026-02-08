@@ -135,7 +135,7 @@
     filteredProducts = productsData.products.filter(product => {
       // Category filter
       if (categoryFilters.length > 0) {
-        const productCategoryId = product.category.toLowerCase().replace(/[짰\s]+/g, '-').replace(/\(|\)/g, '');
+        const productCategoryId = product.category.toLowerCase().replace(/[®\s]+/g, '-').replace(/\(|\)/g, '');
         if (!categoryFilters.includes(productCategoryId)) {
           return false;
         }

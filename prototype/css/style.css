@@ -1429,13 +1429,13 @@ tbody tr:hover {
   font-size: 1.25rem;
   font-weight: 600;
   margin-bottom: 1rem;
-  color: rgba(255, 255, 255, 0.95);
+  color: #ffffff;
 }
 
 .footer-details {
   font-size: 0.875rem;
   line-height: 1.8;
-  color: rgba(255, 255, 255, 0.9);
+  color: #ffffff;
 }
 
 .footer-details p {
@@ -1443,13 +1443,13 @@ tbody tr:hover {
 }
 
 .footer-details a {
-  color: rgba(255, 255, 255, 0.95);
+  color: #ffffff;
   text-decoration: none;
   transition: color 0.2s;
 }
 
 .footer-details a:hover {
-  color: rgba(255, 255, 255, 1);
+  color: #ffffff;
   text-decoration: underline;
 }
 
@@ -1458,7 +1458,7 @@ tbody tr:hover {
   padding-top: 1.5rem;
   border-top: 1px solid rgba(226, 232, 240, 0.2);
   font-size: 0.875rem;
-  color: rgba(255, 255, 255, 0.85);
+  color: #ffffff;
 }
 
 /* Mobile Responsive */

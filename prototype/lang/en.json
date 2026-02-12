@@ -183,5 +183,17 @@
 
   "slide_bone_graft": "Bone Graft Substitutes",
   "slide_dental_implant": "Dental Implants",
-  "slide_3d_scaffold": "3D Printed Scaffolds"
+  "slide_3d_scaffold": "3D Printed Scaffolds",
+  "slide_ha_coating": "HA Coating",
+  "slide_powder": "Calcium Phosphate Powder",
+
+  "footer_company_name": "I&H Global",
+  "footer_business_number": "Business Registration",
+  "footer_ceo": "CEO",
+  "footer_address": "Address",
+  "footer_address_text": "214, Annex, 4, Gyeonggang-ro 2326beon-gil, Gangneung-si, Gangwon-do, Republic of Korea (Gangneung Science and Industrial Promotion Agency)",
+  "footer_email": "Email",
+  "footer_phone": "Phone",
+  "footer_fax": "Fax",
+  "footer_copyright": "All rights reserved."
 }

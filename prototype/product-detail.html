@@ -129,6 +129,44 @@
     </main>
   </div>
 
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <img src="./assets/logo.png" alt="I&H Global" style="height: 48px;">
+      </div>
+      <div class="footer-info">
+        <div class="footer-company">
+          <h3 data-i18n="footer_company_name">I&H Global</h3>
+          <div class="footer-details">
+            <p>
+              <span data-i18n="footer_business_number">Business Registration</span>: 220-08-38988 |
+              <span data-i18n="footer_ceo">CEO</span>: 송인창 (Song In-Chang)
+            </p>
+            <p>
+              <span data-i18n="footer_address">Address</span>:
+              <span data-i18n="footer_address_text">강원특별자치도 강릉시 경강로 2326번길 4, 별관 214호 (포남동, 강릉과학산업진흥원)</span>
+            </p>
+            <p>
+              <span data-i18n="footer_email">Email</span>:
+              <a href="mailto:info@inhbiomat.com">info@inhbiomat.com</a> |
+              <span data-i18n="footer_phone">Phone</span>: 070-8158-3089 |
+              <span data-i18n="footer_fax">Fax</span>: 02-6008-3400
+            </p>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <p>&copy; 2024-<span id="current-year"></span> <span data-i18n="footer_company_name">I&H Global</span>. <span data-i18n="footer_copyright">All rights reserved.</span></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Update current year in footer
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+  </script>
+
   <script src="./js/i18n.js"></script>
   <script>
     // Mobile menu toggle

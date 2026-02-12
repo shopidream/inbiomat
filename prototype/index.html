@@ -185,21 +185,21 @@
   <div class="slideshow-hero">
     <div class="slideshow-container">
       <div class="slide active">
-        <img src="./assets/applications/bone-graft.jpg" alt="Bone Graft Substitutes">
-        <div class="slide-overlay">
-          <h2 class="slide-title" data-i18n="slide_bone_graft">Bone Graft Substitutes</h2>
-        </div>
-      </div>
-      <div class="slide">
         <img src="./assets/applications/dental-implant.jpg" alt="Dental Implants">
         <div class="slide-overlay">
           <h2 class="slide-title" data-i18n="slide_dental_implant">Dental Implants</h2>
         </div>
       </div>
       <div class="slide">
-        <img src="./assets/applications/3d-scaffold.jpg" alt="3D Printed Scaffolds">
+        <img src="./assets/applications/ha-coating.jpg" alt="HA Coating">
         <div class="slide-overlay">
-          <h2 class="slide-title" data-i18n="slide_3d_scaffold">3D Printed Scaffolds</h2>
+          <h2 class="slide-title" data-i18n="slide_ha_coating">HA Coating</h2>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="./assets/applications/powder.jpg" alt="Calcium Phosphate Powder">
+        <div class="slide-overlay">
+          <h2 class="slide-title" data-i18n="slide_powder">Calcium Phosphate Powder</h2>
         </div>
       </div>
 
@@ -383,6 +383,44 @@
       </section>
     </main>
   </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <img src="./assets/logo.png" alt="I&H Global" style="height: 48px;">
+      </div>
+      <div class="footer-info">
+        <div class="footer-company">
+          <h3 data-i18n="footer_company_name">I&H Global</h3>
+          <div class="footer-details">
+            <p>
+              <span data-i18n="footer_business_number">Business Registration</span>: 220-08-38988 |
+              <span data-i18n="footer_ceo">CEO</span>: 송인창 (Song In-Chang)
+            </p>
+            <p>
+              <span data-i18n="footer_address">Address</span>:
+              <span data-i18n="footer_address_text">강원특별자치도 강릉시 경강로 2326번길 4, 별관 214호 (포남동, 강릉과학산업진흥원)</span>
+            </p>
+            <p>
+              <span data-i18n="footer_email">Email</span>:
+              <a href="mailto:info@inhbiomat.com">info@inhbiomat.com</a> |
+              <span data-i18n="footer_phone">Phone</span>: 070-8158-3089 |
+              <span data-i18n="footer_fax">Fax</span>: 02-6008-3400
+            </p>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <p>&copy; 2024-<span id="current-year"></span> <span data-i18n="footer_company_name">I&H Global</span>. <span data-i18n="footer_copyright">All rights reserved.</span></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Update current year in footer
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+  </script>
 
   <script src="./js/i18n.js"></script>
   <script src="./js/slideshow.js"></script>

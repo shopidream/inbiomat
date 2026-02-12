@@ -183,5 +183,17 @@
 
   "slide_bone_graft": "골이식재",
   "slide_dental_implant": "치과 임플란트",
-  "slide_3d_scaffold": "3D 프린팅 스캐폴드"
+  "slide_3d_scaffold": "3D 프린팅 스캐폴드",
+  "slide_ha_coating": "HA 코팅",
+  "slide_powder": "칼슘 인산염 분말",
+
+  "footer_company_name": "아이엔에이치글로벌",
+  "footer_business_number": "사업자등록번호",
+  "footer_ceo": "대표",
+  "footer_address": "주소",
+  "footer_address_text": "강원특별자치도 강릉시 경강로 2326번길 4, 별관 214호 (포남동, 강릉과학산업진흥원)",
+  "footer_email": "이메일",
+  "footer_phone": "전화",
+  "footer_fax": "팩스",
+  "footer_copyright": "All rights reserved."
 }

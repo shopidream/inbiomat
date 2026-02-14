@@ -1,0 +1,16 @@
+# robots.txt for inbiomat
+
+# 네이버 검색로봇 (Yeti) 허용
+User-agent: Yeti
+Allow: /
+
+# 구글 검색로봇 허용
+User-agent: Googlebot
+Allow: /
+
+# 모든 검색로봇 허용
+User-agent: *
+Allow: /
+
+# Sitemap 위치
+Sitemap: http://www.inbiomat.co.kr/sitemap.xml

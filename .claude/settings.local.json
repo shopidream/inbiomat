@@ -16,7 +16,10 @@
       "Bash(find:*)",
       "Bash(test:*)",
       "Bash(xcopy:*)",
-      "Bash(git restore:*)"
+      "Bash(git restore:*)",
+      "Bash(curl:*)",
+      "Bash(ping:*)",
+      "Bash(xargs sed:*)"
     ]
   }
 }
